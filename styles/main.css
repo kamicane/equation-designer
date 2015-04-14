@@ -1,0 +1,56 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #222;
+  font-family: Arial;
+  overflow: hidden;
+
+  box-sizing: border-box;
+}
+
+#controls {
+  position: absolute;
+  top: 5px;
+  right: 5px;
+  width: 180px;
+}
+
+.instructions {
+  color: white;
+  padding: 5px 0;
+}
+
+button, select {
+  display: inline-block;
+  margin: 0;
+  width: 180px;
+  height: 30px;
+  margin-bottom: 5px;
+}
+
+select {
+  width: 60px;
+}
+
+.selector {
+  width: 115px;
+}
+
+#curves {
+  top: 0;
+  left: 0;
+  position: absolute;
+}
+
+#curve {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  font-size: 15px;
+  width: 600px;
+  height: 20px;
+}
+
+.sprite {
+  position: absolute;
+}
